@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+/* NO NEED TO CODE IT FOR THE MOBILE PREVIEW AGAIN AS THE SIZE OF THE CONTAINER IS ENOUGH TO SUIT FOR ALL THE SCREEN SIZES;; */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Outfit";
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 100px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 0.6rem;
+}
+
+.text {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.text p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.attribution {
+  margin-top: 50px;
+}
